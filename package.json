@@ -56,14 +56,15 @@
     "configPath": "tests/dummy/config"
   },
   "dependencies": {
-    "ember-cli-babel": "^5.1.5",
     "broccoli-funnel": "^1.0.1",
     "broccoli-merge-trees": "^1.1.1",
     "broccoli-writer": "^0.1.1",
-    "postcss": "^5.0.14",
-    "postcss-selector-namespace": "^1.0.5",
+    "crc": "^3.4.0",
+    "ember-cli-babel": "^5.1.5",
     "ember-cli-preprocess-registry": "^1.1.0",
     "ember-cli-version-checker": "^1.1.5",
+    "postcss": "^5.0.14",
+    "postcss-selector-namespace": "^1.0.5",
     "symlink-or-copy": "^1.0.1",
     "walk-sync": "^0.2.6"
   }
