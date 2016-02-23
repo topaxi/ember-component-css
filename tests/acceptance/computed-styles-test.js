@@ -11,7 +11,7 @@ var application;
 module('Acceptance - Computed Styles', {
   beforeEach: function() {
     application = startApp();
-    application.registry.optionsForType('expectation', { instantiate: false });
+    application.registerOptionsForType('expectation', { instantiate: false });
   },
 
   afterEach: function() {
